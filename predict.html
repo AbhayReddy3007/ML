@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ML Model Prediction</title>
+  </head>
+  <body>
+    <h1>ML Model Prediction</h1>
+    <form method="post" action="/predict">
+      <label for="fixed acidity">fixed acidity:</label>
+      <input type="text" id="fixed acidity" name="fixed acidity"><br><br>
+      <label for="chlorides">chlorides:</label>
+      <input type="text" id="chlorides" name="chlorides"><br><br>
+      <label for="pH">pH:</label>
+      <input type="text" id="pH" name="pH"><br><br>
+      <label for="alcohol">alcohol:</label>
+      <input type="text" id="alcohol" name="alcohol"><br><br>
+      <label for="residual sugar">residual sugar:</label>
+      <input type="text" id="residual sugar" name="residual sugar"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+
+    <h2>{{info1}}</h2>
+  </body>
+</html>
